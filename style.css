@@ -1,0 +1,38 @@
+body {
+  font-family: "Open Sans", sans-serif; text-align: center;
+}
+img{ border-radius: 100%;}
+
+h1{ color: blue;
+}
+nav .verticle
+li{ background-color: skyblue; text-align: left; 
+}
+li{display: inline;
+}
+nav.verticle li{
+  border: none;
+}
+div { 
+  width: calc( (100% / 3) - 40px);
+  float: left;
+  border: 1px solid black;
+  padding: 0px 0px 20px 0px;
+  box-sizing: border-box;
+  margin: 20px;
+}
+a { 
+  display: inline-block;
+  padding: 100px 5px 50px;
+  font-size: 30px;
+  background-color: rebeccapurple;
+  border-radius:20px;
+
+}
+a:hover { 
+  color: red; 
+  background-color: darkgreen;
+  transition: all 3s;
+
+
+} 
